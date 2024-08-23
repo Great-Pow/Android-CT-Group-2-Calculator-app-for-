@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- res/menu/menu_main.xml -->
+
+    <item
+        android:id="@+id/action_currency_converter"
+        android:title="Currency Converter"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_calculator"
+            android:title="Calculator"
+            android:orderInCategory="101"
+            app:showAsAction="never" />
+    </menu>
+
+
